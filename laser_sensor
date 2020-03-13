@@ -1,0 +1,11 @@
+int laserPin = 13;
+void setup ()
+{
+   pinMode (13, OUTPUT); // define the digital output interface 13 feet
+}
+void loop () {
+   digitalWrite (13, HIGH); // Turn Laser On
+   delay (1000); // On For Half a Second
+   digitalWrite (13 , LOW); // Turn Laser Off
+   delay (500); // Off for half a second
+}
